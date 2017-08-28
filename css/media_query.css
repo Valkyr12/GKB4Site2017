@@ -1,0 +1,330 @@
+/*Media*/
+
+/*After 1200px*/
+
+@media (min-width: 1200px) {
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  }
+table.table {
+  font-size: 18px;
+  }
+
+  .quick-nav-btn {
+    font-size: 16px;
+    padding: 10px 35px;
+  }
+
+  .carousel-caption {
+  padding-bottom: 20px;
+}
+}
+
+/*End after 1200px*/
+
+/*After 992px before 1199px*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+ .carousel-inner > .item > img,
+ .carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  }
+
+  .quick-nav-btn {
+    font-size: 16px;
+    padding: 10px 25px;
+  }
+}
+
+/*End after 992px before 1199px*/
+
+/*After 768px before 992px*/
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .navbar_togbuz:after {
+    content: '«ГКБ №4 г. Тамбова»';
+  }
+
+  .logo {
+    height: 85px;
+    width: 85px;
+  }
+
+  .nav > li > a {
+    padding: 8px 8px;
+    font-size: 13px;
+  }
+
+  .quick-nav-btn {
+    font-size: 16px;
+    padding: 10px 25px;
+  }
+}
+
+/*End after 768px before 992px*/
+
+/*Before 767px*/
+
+@media (max-width: 767px) {
+  .navbar-brand {
+    font-size: 16px;
+  }
+  .navbar-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .dropdown-menu > li > a {
+  white-space: normal;
+  }
+  .glyphicon-chevron-right,
+  .glyphicon-chevron-left {
+    font-size: 30px;
+  }
+  .triangle:before {
+    display: none;
+  }
+
+  .triangle:after {
+    display: none;
+  }
+
+  .navbar_togbuz:after {
+    content: '«ГКБ №4 г. Тамбова»';
+  }
+  .logo {
+    height: 56px;
+    width: 60px;
+    margin-left: 10%;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li:hover, .navbar-default .navbar-nav .open .dropdown-menu > li:focus {
+    background-color: rgb(223,240,216);
+  }
+
+  .quick-nav-btn {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+
+  .useful-links {
+    max-width: 80%;
+  }
+}
+
+/*Before 767px*/
+
+/*Before 560px*/
+
+@media (max-width: 560px) {
+  .navbar-brand {
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+  }
+  .navbar-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .glyphicon-chevron-right,
+  .glyphicon-chevron-left {
+    font-size: 30px;
+  }
+
+  .navbar_togbuz:after {
+    content: '«ГКБ №4 г. Тамбова»';
+  }
+
+  .logo {
+    height: 56px;
+    width: 60px;
+  }
+
+  .quick-nav-btn {
+    font-size: 12px;
+    padding: 9px 4px;
+  }
+
+  .carousel-title {
+    font-size: 26px;
+    margin-bottom: 2px;
+  }
+
+  .table-media {
+    font-size: 83%;
+  }
+
+  .footer-menu {
+    font-size: 85%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .breadcrumb {
+    font-size: 12px;
+  }
+
+  .useful-links {
+    max-width: 100%;
+  }
+}
+
+/*End before 560px*/
+
+
+/*After 320px before 400px*/
+
+@media (min-width: 320px) and (max-width: 400px) {
+  .quick-nav-btn {
+    font-size: 14px;
+    padding: 9px 2px;
+  }
+
+  #myCarousel {
+    display: none;
+  }
+
+  .ovl-index {
+    font-size: 13px;
+  }
+
+  .table-media {
+    font-size: 75%;
+  }
+
+  .quick-nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .quick-nav-btn {
+    border-radius: 0px;
+  }
+
+  .news {
+    font-size: 90%;
+  }
+
+  .footer-menu {
+    font-size: 75%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .footer-brand {
+    font-size: 13px;
+  }
+
+  .breadcrumb {
+    font-size: 11px;
+  }
+
+  .useful-links {
+    display: none;
+  }
+}
+
+/*End after 320px before 400px*/
+
+/*Before 320px*/
+
+@media (max-width: 320px) {
+  .navbar-brand {
+    font-size: 12px;
+    padding: 10px 10px;
+  }
+  .navbar-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar_togbuz:after {
+    content: '«ГКБ №4 г. Тамбова»';
+  }
+
+  .logo {
+    height: 60px;
+    width: 60px;
+  }
+
+  .quick-nav {
+    font-size: 1px;
+  }
+
+  .quick-nav-btn {
+    font-size: 12px;
+    padding: 7px 1px;
+  }
+
+  .ovl-index {
+    font-size: 11px;
+  }
+
+  .navbar-brand {
+    font-size: 11px;
+    padding: 10px 10px;
+    line-height: 14px;
+  }
+
+  #myCarousel {
+    display: none;
+  }
+
+  .table-media {
+    font-size: 75%;
+  }
+
+  .quick-nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .quick-nav-btn {
+    border-radius: 0px;
+  }
+
+  .news {
+    font-size: 80%;
+  }
+
+  .footer-menu {
+    font-size: 63%;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  .footer-brand, .breadcrumb {
+    font-size: 10px;
+  }
+
+  .doctor_name, .doctor_office {
+    font-size: 14px;
+  }
+
+  .doctor_specialty{
+    font-size: 12px;
+  }
+
+  h4.doctor_name, h4.doctor_office, p.doctor_specialty {
+    margin: 0;
+  }
+
+  .useful-links {
+    display: none;
+  }
+}
+
+/* End before 320px*/
+
+
+/* End Media*/
+
+/*.col-xs-4 .btn-primary {
+  display: block;
+  margin: 0 auto;
+}*/

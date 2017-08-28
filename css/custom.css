@@ -1,0 +1,181 @@
+.triangle:before,
+.triangle:after {
+  position: absolute;
+  top: -6px;
+  left: 9px;
+  display: inline-block;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid #ccc;
+  border-left: 7px solid transparent;
+  border-bottom-color: #fff;
+  content: '';
+}
+
+.triangle:after {
+  top: -8px;
+  border-bottom-color: #ccc;
+  z-index: -10;
+}
+
+.dropdown-menu > li > a:hover {
+  background-color: rgb(223,240,216);
+}
+
+.logo {
+  float: left;
+  height: 100px;
+  width: 100px;
+  background-image: url(../img/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 35%;
+  border-radius: 50% 50%;
+  margin-right: 10px;
+}
+
+.quick-nav {
+  display: table;
+  margin: 1rem auto;
+}
+
+.carousel-indicators {
+  bottom: 0;
+}
+
+.carousel-caption {
+  padding-bottom: 10px;
+}
+
+.useful-links {
+  margin-top: 14px;
+}
+
+.useful-links-img {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.useful-links-img img {
+  margin-bottom: 6px;
+}
+
+.ovl-index {
+  padding: 6px 6px;
+}
+
+.department_title {
+  font-size: 24px;
+}
+
+figure {
+  float: left;
+  margin: 10px;
+  position: relative;
+}
+
+figcaption {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255,255,255, 0.6);
+  padding: 0 5px;
+  visibility: hidden;
+  transition: 0.5s linear 0s;
+  opacity: 0;
+}
+
+figure:hover figcaption {
+  visibility: visible;
+  opacity: 1;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    background-color: rgb(192,192,192);
+}
+
+a.spoiler:after {
+  content: " [-]";
+}
+
+a.spoiler.collapsed:after {
+  content: " [+]";
+}
+
+.news-about {
+  clear: both;
+}
+
+/*Фотогалерея*/
+
+.thumb img {
+  filter: none; /* IE6-9 */
+  -webkit-filter: grayscale(1);
+  border-radius:5px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding:5px;
+}
+
+.thumb:hover img {
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(0);
+}
+
+.thumb {
+  padding:5px;
+}
+
+.title-visible {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255,255,255, 0.6);
+  padding: 0 10px 5px 10px;
+  visibility: hidden;
+  transition: 0.5s linear 0s;
+  opacity: 0;
+}
+
+.bottom-title:hover .title-visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*/Фотогалерея*/
+
+/*Полезные советы*/
+
+.glyphicon {
+  margin-right: 10px;
+}
+.panel-body {
+  padding: 0px;
+}
+.panel-body table tr td {
+  padding-left: 15px
+}
+.panel-body .table {
+  margin-bottom: 0px;
+}
+
+/*/Полезные советы*/
+
+#error {
+  color: #ff0000;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.brand-block {
+  max-width: 80%;
+  margin: 0 auto;
+}
