@@ -204,6 +204,7 @@ table.table {
 
   .quick-nav-btn {
     border-radius: 0px;
+    font-size: 16px;
   }
 
   .news {
@@ -257,7 +258,7 @@ table.table {
   }
 
   .quick-nav-btn {
-    font-size: 12px;
+    font-size: 16px;
     padding: 14px 1px;
   }
 
