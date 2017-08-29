@@ -182,7 +182,7 @@ table.table {
 @media (min-width: 320px) and (max-width: 400px) {
   .quick-nav-btn {
     font-size: 14px;
-    padding: 9px 2px;
+    padding: 14px 2px;
   }
 
   #myCarousel {
@@ -258,7 +258,7 @@ table.table {
 
   .quick-nav-btn {
     font-size: 12px;
-    padding: 7px 1px;
+    padding: 14px 1px;
   }
 
   .ovl-index {
@@ -293,7 +293,7 @@ table.table {
   }
 
   .footer-menu {
-    font-size: 63%;
+    font-size: 75%;
     padding-right: 5px;
     padding-left: 5px;
   }
