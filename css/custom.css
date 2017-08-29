@@ -183,3 +183,7 @@ a.spoiler.collapsed:after {
 .table > tbody > tr > td:last-child {
   white-space: nowrap;
 }
+
+.blue {
+  color: #337ab7;
+}
