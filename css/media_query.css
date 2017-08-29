@@ -79,11 +79,13 @@ table.table {
 @media (max-width: 767px) {
   .navbar-brand {
     font-size: 20px;
+    padding-top: 25px;
   }
   .navbar-header {
     display: flex;
     justify-content: space-between;
   }
+
   .dropdown-menu > li > a {
   white-space: normal;
   }
@@ -129,7 +131,7 @@ table.table {
   .navbar-brand {
     font-size: 16px;
     margin-bottom: 10px;
-    padding: 10px 10px;
+    padding: 20px 10px;
   }
   .navbar-header {
     display: flex;
@@ -279,7 +281,7 @@ table.table {
 
   .navbar-brand {
     font-size: 12px;
-    padding: 10px 5px 5px;
+    padding: 18px 5px 5px;
     line-height: 14px;
   }
 
