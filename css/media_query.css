@@ -103,8 +103,8 @@ table.table {
     content: '«ГКБ №4 г. Тамбова»';
   }
   .logo {
-    height: 56px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
     margin-left: 10%;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li:hover, .navbar-default .navbar-nav .open .dropdown-menu > li:focus {
@@ -145,8 +145,8 @@ table.table {
   }
 
   .logo {
-    height: 56px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
   }
 
   .quick-nav-btn {
@@ -186,6 +186,8 @@ table.table {
 @media (min-width: 320px) and (max-width: 400px) {
   .logo {
     margin-left: 1%;
+    height: 70px;
+    width: 70px;
   }
 
   .navbar-brand {
@@ -257,8 +259,8 @@ table.table {
   }
 
   .logo {
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
     margin-left: 1%;
   }
 
