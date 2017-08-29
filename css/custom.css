@@ -179,3 +179,7 @@ a.spoiler.collapsed:after {
   max-width: 80%;
   margin: 0 auto;
 }
+
+.table > tbody > tr > td:last-child {
+  white-space: nowrap;
+}
