@@ -180,6 +180,11 @@ a.spoiler.collapsed:after {
   margin: 0 auto;
 }
 
+.brand-block .flex {
+  align-items: center;
+  justify-content: space-around;
+}
+
 .table > tbody > tr > td:last-child {
   white-space: nowrap;
 }
@@ -187,3 +192,4 @@ a.spoiler.collapsed:after {
 .blue {
   color: #337ab7;
 }
+
