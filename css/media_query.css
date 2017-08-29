@@ -180,6 +180,10 @@ table.table {
 /*After 320px before 400px*/
 
 @media (min-width: 320px) and (max-width: 400px) {
+  .logo {
+    margin-left: 1%;
+  }
+
   .quick-nav-btn {
     font-size: 14px;
     padding: 14px 2px;
@@ -251,6 +255,7 @@ table.table {
   .logo {
     height: 60px;
     width: 60px;
+    margin-left: 1%;
   }
 
   .quick-nav {
