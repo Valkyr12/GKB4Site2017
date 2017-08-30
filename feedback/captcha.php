@@ -10,7 +10,7 @@ $captchastring = substr(str_shuffle($captchastring), 0, 6);
 $_SESSION["code"] = $captchastring;
 // генерируем CAPTCHA
 // создаем новое изображение из файла background.png
-$image = imagecreatefrompng(dirname(__FILE__).'/background.png');
+$image = imagecreatefrompng(dirname(__FILE__).'feedback/background.png');
 // устанавливаем цвет (R-200, G-240, B-240) изображению, хранящемуся в $image
 $colour = imagecolorallocate($image, 200, 240, 240);
 // присваиваем переменной font название шрифта
