@@ -7,14 +7,6 @@ $(function() {
     $('#img-captcha').attr('src','/feedback/captcha.php?id='+Math.random()+'');
   });
 
-  $('input[name="agree"]').change(function(){
-  if(this.checked) {
-    $(this).closest('form').find('[type="submit"]').prop('disabled',false);
-  } else {
-    $(this).closest('form').find('[type="submit"]').prop('disabled',true);
-  }
-})
-
   // при отправке формы contactForm на сервер (id="contactForm")
   $('#contactForm').submit(function(event) {
     // отменяем стандартное действие браузера

@@ -3,78 +3,81 @@
 <head>
   <meta charset="utf-8">
   <title>«ГКБ №4 г.Тамбова»</title>
-  <link rel="stylesheet" href="../css/font-awesome.css">
-  <link rel="stylesheet" href="../css/custom.css">
-  <link rel="stylesheet" href="../css/bootstrap.min.css">
-  <link rel="stylesheet" href="../css/media_query.css">
+  <link rel="stylesheet" href="/feedback/css/bootstrap.min.css">
 </head>
 <body>
+      <div class="container">
+        <h1 class="h2 text-center">Форма обратной связи</h1>
 
-  <h1 class="h2 page-header text-center">Форма обратной связи</h1>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-6 col-sm-offset-3">
-        <!-- Контейнер, содержащий форму обратной связи -->
-        <div class="panel panel-info">
-          <!-- Заголовок контейнера -->
-          <div class="panel-heading">
-            <h3 class="panel-title">Форма обратной связи</h3>
-          </div>
-          <!-- Содержимое контейнера -->
-          <div class="panel-body">
-
-            <!-- Сообщение, отображаемое в случае успешной отправки данных -->
-            <div class="alert alert-success hidden" role="alert" id="successMessage">
-              <strong>Внимание!</strong> Ваше сообщение успешно отправлено.
-            </div>
-
-            <!-- Форма обратной связи -->
-            <form id="contactForm">
-              <div class="row">
-
-
-                <div id="error" class="col-sm-12" class="feedback-error"></div>
-
-                <!-- Имя и email пользователя -->
-                <div class="col-sm-6">
-                  <!-- Имя пользователя -->
-                  <div class="form-group has-feedback">
-                    <label for="name" class="control-label">Введите ваше имя:</label>
-                    <input type="text" id="name" name="name" class="form-control" required="required" value="" placeholder="Например, Иван Иванович" minlength="2" maxlength="30">
-                    <span class="glyphicon form-control-feedback"></span>
-                  </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
+              <!-- Контейнер, содержащий форму обратной связи -->
+              <div class="panel panel-info">
+                <!-- Заголовок контейнера -->
+                <div class="panel-heading">
+                  <h3 class="panel-title">Форма обратной связи</h3>
                 </div>
-                <div class="col-sm-6">
-                  <!-- Email пользователя -->
-                  <div class="form-group has-feedback">
-                    <label for="email" class="control-label">Введите адрес email:</label>
-                    <input type="email" id="email" name="email" class="form-control" required="required"  value="" placeholder="Например, ivan@mail.ru" maxlength="30">
-                    <span class="glyphicon form-control-feedback"></span>
+                <!-- Содержимое контейнера -->
+                <div class="panel-body">
+
+                  <!-- Сообщение, отображаемое в случае успешной отправки данных -->
+                  <div class="alert alert-success hidden" role="alert" id="successMessage">
+                    <strong>Внимание!</strong> Ваше сообщение успешно отправлено.
                   </div>
-                </div>
-              </div>
 
-              <!-- Сообщение пользователя -->
-              <div class="form-group has-feedback">
-                <label for="message" class="control-label">Введите сообщение:</label>
-                <textarea id="message" class="form-control" rows="3" placeholder="Введите сообщение от 20 до 500 символов" minlength="20" maxlength="500" required="required"></textarea>
-              </div>
+                  <!-- Форма обратной связи -->
+                  <form id="contactForm">
+                    <div class="row">
 
-              <hr>
-              <!-- Изображение, содержащее код капчи -->
-	            <img id="img-captcha" src="/feedback/captcha.php">
-              <!-- Элемент, обновляющий код капчи -->
-	            <div id="reload-captcha" class="btn btn-default"><i class="glyphicon glyphicon-refresh"></i> Обновить</div>
-	            <!-- Блок для ввода кода капчи -->
-	            <div class="form-group has-feedback">
-                <label id="label-captcha" for="captcha" class="control-label">Пожалуйста, введите указанный на изображении код:</label>
-	              <input id="text-captcha" name="captcha" type="text" class="form-control" required="required" value="" autocomplete="off" minlength="6" maxlength="6">
-	              <span class="glyphicon form-control-feedback"></span>
-              </div>
-                <p>Нажимая на кнопку "Отправить сообщение", вы подтверждаете свое согласие на обработку введенных вами персональных данных, согласно действующей <a href="#">политике обработки персональных данных.</a></p>
-              <!-- Кнопка, отправляющая форму -->
-              <button type="submit" class="btn btn-primary pull-right">Отправить сообщение</button>
+
+                      <div id="error" class="col-sm-12" class="feedback-error"></div>
+
+                      <!-- Имя и email пользователя -->
+                      <div class="col-sm-6">
+                        <!-- Имя пользователя -->
+                        <div class="form-group has-feedback">
+                          <label for="name" class="control-label">Введите ваше имя:</label>
+                          <input type="text" id="name" name="name" class="form-control" required="required" value="" placeholder="Например, Иван Иванович" minlength="2" maxlength="30">
+                          <span class="glyphicon form-control-feedback"></span>
+                        </div>
+                      </div>
+                      <div class="col-sm-6">
+                        <!-- Email пользователя -->
+                        <div class="form-group has-feedback">
+                          <label for="email" class="control-label">Введите адрес email:</label>
+                          <input type="email" id="email" name="email" class="form-control" required="required"  value="" placeholder="Например, ivan@mail.ru" maxlength="30">
+                          <span class="glyphicon form-control-feedback"></span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Сообщение пользователя -->
+                    <div class="form-group has-feedback">
+                      <label for="message" class="control-label">Введите сообщение:</label>
+                      <textarea id="message" class="form-control" rows="3" placeholder="Введите сообщение от 20 до 500 символов" minlength="20" maxlength="500" required="required"></textarea>
+                    </div>
+
+                    <hr>
+                    <!-- Изображение, содержащее код капчи -->
+                    <img id="img-captcha" src="/feedback/captcha.php">
+                    <!-- Элемент, обновляющий код капчи -->
+                    <div id="reload-captcha" class="btn btn-default"><i class="glyphicon glyphicon-refresh"></i> Обновить</div>
+                    <!-- Блок для ввода кода капчи -->
+                    <div class="form-group has-feedback">
+                      <label id="label-captcha" for="captcha" class="control-label">Пожалуйста, введите указанный на изображении код:</label>
+                      <input id="text-captcha" name="captcha" type="text" class="form-control" required="required" value="" autocomplete="off" minlength="6" maxlength="6">
+                      <span class="glyphicon form-control-feedback"></span>
+                    </div>
+
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" name="agree"> Нажимая на кнопку "Отправить сообщение", вы подтверждаете свое согласие на обработку введенных вами персональных данных, согласно действующей <a href="#">политике обработки персональных данных.</a>
+                      </label>
+                    </div>
+
+                    <!-- Кнопка, отправляющая форму -->
+                    <button name="send-message" type="submit" class="btn btn-primary pull-right" disabled="disabled">Отправить сообщение</button>
             </form><!-- Конец формы -->
 
           </div>
@@ -84,10 +87,8 @@
     </div>
   </div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="../js/bootstrap.js"></script>
-  <script src="../feedback/script.js"></script>
+  <script src="/feedback/js/jquery-3.1.0.min.js"></script>
+  <script src="/feedback/js/bootstrap.min.js"></script>
+  <script src="/feedback/script.js"></script>
 </body>
 </html>
