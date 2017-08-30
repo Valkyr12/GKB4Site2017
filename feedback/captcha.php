@@ -10,11 +10,11 @@ $captchastring = substr(str_shuffle($captchastring), 0, 6);
 $_SESSION["code"] = $captchastring;
 // генерируем CAPTCHA
 // создаем новое изображение из файла background.png
-$image = imagecreatefrompng(dirname(__FILE__).'../GKB4Site2017/feedback/background.png');
+$image = imagecreatefrompng(dirname(__FILE__).'https://valkyr12.github.io/GKB4Site2017/feedback/background.png');
 // устанавливаем цвет (R-200, G-240, B-240) изображению, хранящемуся в $image
 $colour = imagecolorallocate($image, 200, 240, 240);
 // присваиваем переменной font название шрифта
-$font = dirname(__FILE__).'../GKB4Site2017/feedback/oswald.ttf';
+$font = dirname(__FILE__).'https://valkyr12.github.io/GKB4Site2017/feedback/oswald.ttf';
 // устанавливаем случайное число между -10 и 10 градусов для поворота текста
 $rotate = rand(-10, 10);
 // рисуем текст на изображении шрифтом TrueType (1 параметр - изображение ($image),
