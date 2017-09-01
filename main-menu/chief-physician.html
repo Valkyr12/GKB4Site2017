@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../css/font-awesome.css">
     <link rel="stylesheet" href="../css/custom.css">
     <link rel="stylesheet" href="../css/media_query.css">
+    <link rel="stylesheet" href="../fancybox/jquery.fancybox.css" media="screen" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -131,8 +132,32 @@
     <main>
       <div class="container">
         <div class="row">
-
-
+            <div class="row col-sm-4 col-md-4 hidden-xs col-sm-offset-1 col-md-offset-1">
+              <figure class="foto">
+                <a class="fancyimage" data-fancybox-group="group" href="../img/doctors/chief/doru-tovt.jpg" title="Дору-Товт Василий Петрович - главный врач ТОГБУЗ «ГКБ №4 г.Тамбова»">
+                  <img src="../img/doctors/chief/doru-tovt.jpg" alt="Дору-Товт Василий Петрович" class="img-responsive img-rounded">
+                </a>
+                  <figcaption class="text-center">
+                    <h4 class="doctor_name">
+                      <strong>Дору-Товт Василий Петрович</strong>
+                    </h4>
+                    <p class="doctor_specialty">Главный врач ТОГБУЗ «ГКБ №4 г.Тамбова».
+                      <span class="hidden-xs"></span>
+                    </p>
+                    <h4 class="doctor_office">
+                      <strong>тел./факс: 44-46-70</strong>
+                    </h4>
+                  </figcaption>
+              </figure>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <p>Главный врач ТОГБУЗ «ГКБ №4 г.Тамбова»
+                <strong>Дору-Товт Василий Петрович</strong>.
+              </p>
+              <p>
+                <strong>тел./факс: 44-46-70</strong>
+              </p>
+            </div>
         </div>
       </div>
     </main>
@@ -248,5 +273,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../fancybox/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $("a.fancyimage").fancybox();
+      });
+    </script>
   </body>
 </html>
