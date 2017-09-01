@@ -156,7 +156,7 @@ a.spoiler.collapsed:after {
 .glyphicon {
   margin-right: 10px;
 }
-.panel-body {
+.panel-collapse .panel-body {
   padding: 0px;
 }
 .panel-body table tr td {
@@ -196,4 +196,3 @@ a.spoiler.collapsed:after {
 .blue {
   color: #337ab7;
 }
-
