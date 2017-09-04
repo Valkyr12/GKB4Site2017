@@ -196,3 +196,12 @@ a.spoiler.collapsed:after {
 .blue {
   color: #337ab7;
 }
+
+.review-list {
+  padding: 2px 0 8px 0;
+  font-size: 16px;
+}
+
+.pdf-color {
+  color: #e72017;
+}
