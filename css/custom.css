@@ -129,7 +129,7 @@ a.spoiler.collapsed:after {
 }
 
 .thumb {
-  padding:5px;
+  padding: 5px;
 }
 
 .title-visible {
@@ -204,4 +204,8 @@ a.spoiler.collapsed:after {
 
 .pdf-color {
   color: #e72017;
+}
+
+li p .text-center {
+  margin-bottom: 5rem;
 }
