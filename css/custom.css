@@ -205,3 +205,8 @@ a.spoiler.collapsed:after {
 .pdf-color {
   color: #e72017;
 }
+
+video {
+    max-width: 100%;
+    height: auto;
+}
