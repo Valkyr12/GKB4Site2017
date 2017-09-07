@@ -189,9 +189,9 @@ a.spoiler.collapsed:after {
   justify-content: space-around;
 }
 
-.table > tbody > tr > td:last-child {
+/*.table > tbody > tr > td:last-child {
   white-space: nowrap;
-}
+}*/
 
 .blue {
   color: #337ab7;
