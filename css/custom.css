@@ -207,6 +207,10 @@ a.spoiler.collapsed:after {
 }
 
 video {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+article {
+  margin-bottom: 4rem;
 }

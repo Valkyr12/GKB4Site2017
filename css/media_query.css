@@ -121,10 +121,6 @@ table.table {
   .useful-links {
     max-width: 80%;
   }
-
-  dd {
-    margin-bottom: 2rem;
-  }
 }
 
 /*Before 767px*/

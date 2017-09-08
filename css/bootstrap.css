@@ -1450,7 +1450,6 @@ dt {
 }
 dd {
   margin-left: 0;
-  padding: 5px;
 }
 @media (min-width: 768px) {
   .dl-horizontal dt {
@@ -1461,7 +1460,6 @@ dd {
     text-align: right;
     text-overflow: ellipsis;
     white-space: nowrap;
-    margin: 5px;
   }
   .dl-horizontal dd {
     margin-left: 180px;
