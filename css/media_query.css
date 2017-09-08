@@ -342,3 +342,14 @@ table.table {
   display: block;
   margin: 0 auto;
 }*/
+
+@media (min-width: 768px) {
+  .dl-horizontal-bank dd {
+    margin-left: 220px;
+  }
+  .dl-horizontal-bank dt {
+    float: left;
+    width: 200px;
+    text-align: right;
+  }
+}
