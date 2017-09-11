@@ -345,11 +345,11 @@ table.table {
 
 @media (min-width: 768px) {
   .dl-horizontal-bank dd {
-    margin-left: 220px;
+    margin-left: 230px;
   }
   .dl-horizontal-bank dt {
     float: left;
-    width: 200px;
+    width: 210px;
     text-align: right;
   }
 }
