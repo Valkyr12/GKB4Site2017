@@ -210,3 +210,7 @@ video {
 article {
   margin-bottom: 4rem;
 }
+
+td + .halfscreen {
+  width: 50%;
+}
