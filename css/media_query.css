@@ -178,6 +178,10 @@ table.table {
   .useful-links {
     max-width: 100%;
   }
+ .title-visible {
+    visibility: visible;
+    opacity: 1;
+ }
 }
 
 /*End before 560px*/
