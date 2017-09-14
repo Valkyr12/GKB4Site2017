@@ -126,6 +126,7 @@ a.spoiler.collapsed:after {
 
 .thumb {
   padding: 5px;
+  height: 100%;
 }
 
 .title-visible {
