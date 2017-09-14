@@ -237,3 +237,10 @@ figure h4 {
   -ms-flex-wrap: wrap;
   -o-flex-wrap: wrap;
 }
+
+.photoalbum-item.container:before,
+.photoalbum-item.container:after,
+.photoalbum-item.row:before,
+.photoalbum-item.row:after {
+   content: normal;
+}
