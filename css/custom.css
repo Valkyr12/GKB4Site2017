@@ -176,6 +176,15 @@ a.spoiler.collapsed:after {
   justify-content: center;
 }
 
+.photoalbum-item {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .brand-block {
   max-width: 80%;
   margin: 0 auto;
