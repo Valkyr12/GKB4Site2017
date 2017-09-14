@@ -172,6 +172,10 @@ a.spoiler.collapsed:after {
 }
 
 .flex {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
   display: flex;
   justify-content: center;
 }
@@ -226,5 +230,6 @@ figure h4 {
   display: -ms-flex;
   display: -o-flex;
   display: flex;
+  flex-wrap: -webkit-wrap;
   flex-wrap: wrap;
 }
