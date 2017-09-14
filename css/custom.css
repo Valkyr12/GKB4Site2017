@@ -126,7 +126,7 @@ a.spoiler.collapsed:after {
 .thumb {
   margin-bottom: 10px;
   height: 100%;
-  flex: 0 1 auto;
+  flex: 1 1 auto;
 }
 
 .title-visible {
@@ -232,5 +232,5 @@ figure h4 {
   display: -o-flex;
   display: flex;
   flex-wrap: wrap;
-  flex: 0 1 auto;
+  flex: 1 1 auto;
 }
