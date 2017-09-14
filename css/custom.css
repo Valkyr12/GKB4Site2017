@@ -87,8 +87,8 @@ figure:hover figcaption {
 }
 
 img {
-    max-width: 100%;
-    background-color: rgb(192,192,192);
+  max-width: 100%;
+  background-color: rgb(192,192,192);
 }
 
 a figcaption {
@@ -242,5 +242,5 @@ figure h4 {
 .photoalbum-item.container:after,
 .photoalbum-item.row:before,
 .photoalbum-item.row:after {
-   content: normal;
+  content: normal;
 }
