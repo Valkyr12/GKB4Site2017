@@ -87,8 +87,7 @@ figure:hover figcaption {
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+    max-width: 99%;
     background-color: rgb(192,192,192);
 }
 
