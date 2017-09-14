@@ -230,7 +230,6 @@ figure h4 {
   display: -ms-flex;
   display: -o-flex;
   display: flex;
-  flex-wrap: -webkit-wrap;
   flex-wrap: wrap;
   flex: 0 1 auto;
 }
