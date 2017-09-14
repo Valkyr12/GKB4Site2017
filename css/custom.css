@@ -188,7 +188,9 @@ a.spoiler.collapsed:after {
 
 .brand-block .flex {
   align-items: center;
-  justify-content: space-around;
+  justify-content:        space-around;
+   -webkit-align-content: space-around;
+        -ms-flex-line-pack: distribute;
 }
 
 /*.table > tbody > tr > td:last-child {

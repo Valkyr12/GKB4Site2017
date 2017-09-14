@@ -88,6 +88,10 @@
     display: -o-flex;
     display: flex;
     justify-content: space-between;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+
   }
 
   .dropdown-menu > li > a {
@@ -144,6 +148,10 @@
     display: -o-flex;
     display: flex;
     justify-content: space-between;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+
   }
   .glyphicon-chevron-right,
   .glyphicon-chevron-left {
@@ -274,6 +282,9 @@
     display: -o-flex;
     display: flex;
     justify-content: space-between;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
   }
 
   .navbar_togbuz:after {
