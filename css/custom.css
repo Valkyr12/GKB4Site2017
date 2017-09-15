@@ -246,3 +246,7 @@ figure h4 {
 .photoalbum-item.row:after {
   content: normal;
 }
+
+.title-visible .h5 {
+  padding: 0 10px;
+}
