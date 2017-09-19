@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../css/font-awesome.css">
     <link rel="stylesheet" href="../css/custom.css">
     <link rel="stylesheet" href="../css/media_query.css">
-    <link rel="stylesheet" href="../fancybox/jquery.fancybox.css" media="screen" />
+    <link rel="stylesheet" href="../photogallery/dist/jquery.fancybox.min.css" media="screen">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -136,7 +136,7 @@
         <div class="row">
             <div class="row col-sm-4 col-md-4 hidden-xs col-sm-offset-1 col-md-offset-1">
               <figure class="foto">
-                <a class="fancyimage" data-fancybox-group="group" href="../img/doctors/chief/volkova.jpg" title="Волкова Ольга Владимировна - и. о. заместителя главного врача по медицинской части">
+                <a data-fancybox="group" href="../img/doctors/chief/volkova.jpg" data-caption="Волкова Ольга Владимировна - и. о. заместителя главного врача по медицинской части">
                   <img src="../img/doctors/chief/volkova.jpg" alt="Волкова Ольга Владимировна" class="img-responsive img-rounded">
                     <figcaption class="text-center">
                     <h4 class="doctor_name">
@@ -164,7 +164,7 @@
         <div class="row">
             <div class="row col-sm-4 col-md-4 hidden-xs col-sm-offset-1 col-md-offset-1">
               <figure class="foto">
-                <a class="fancyimage" data-fancybox-group="group" href="../img/doctors/chief/verbickaya.jpg" title="Вербицкая Рита Михайловна - и. о. заместителя главного врача по клинико-экспертной работе">
+                <a data-fancybox="group" href="../img/doctors/chief/verbickaya.jpg" data-caption="Вербицкая Рита Михайловна - и. о. заместителя главного врача по клинико-экспертной работе">
                   <img src="../img/doctors/chief/verbickaya.jpg" alt="Вербицкая Рита Михайловна" class="img-responsive img-rounded">
                     <figcaption class="text-center">
                     <h4 class="doctor_name">
@@ -192,7 +192,7 @@
         <div class="row">
             <div class="row col-sm-4 col-md-4 hidden-xs col-sm-offset-1 col-md-offset-1">
               <figure class="foto">
-                <a class="fancyimage" data-fancybox-group="group" href="../img/doctors/chief/shlikova.jpg" title="Шлыкова Галина Павловна - заместитель главного врача по экономической части">
+                <a data-fancybox="group" href="../img/doctors/chief/shlikova.jpg" data-caption="Шлыкова Галина Павловна - заместитель главного врача по экономической части">
                   <img src="../img/doctors/chief/shlikova.jpg" alt="Шлыкова Галина Павловна" class="img-responsive img-rounded">
                     <figcaption class="text-center">
                     <h4 class="doctor_name">
@@ -220,7 +220,7 @@
         <div class="row">
             <div class="row col-sm-4 col-md-4 hidden-xs col-sm-offset-1 col-md-offset-1">
               <figure class="foto">
-                <a class="fancyimage" data-fancybox-group="group" href="../img/doctors/chief/machihina.jpg" title="Мачихина Алла Владимировна - заместитель главного врача по хозяйственным вопросам">
+                <a data-fancybox="group" href="../img/doctors/chief/machihina.jpg" data-caption="Мачихина Алла Владимировна - заместитель главного врача по хозяйственным вопросам">
                   <img src="../img/doctors/chief/machihina.jpg" alt="Мачихина Алла Владимировна" class="img-responsive img-rounded">
                     <figcaption class="text-center">
                     <h4 class="doctor_name">
@@ -248,7 +248,7 @@
         <div class="row">
             <div class="row col-sm-4 col-md-4 hidden-xs col-sm-offset-1 col-md-offset-1">
               <figure class="foto">
-                <a class="fancyimage" data-fancybox-group="group" href="../img/doctors/chief/platicina.jpg" title="Платицына Тамара Алексеевна - главный бухгалтер">
+                <a data-fancybox="group" href="../img/doctors/chief/platicina.jpg" data-caption="Платицына Тамара Алексеевна - главный бухгалтер">
                   <img src="../img/doctors/chief/platicina.jpg" alt="Платицына Тамара Алексеевна" class="img-responsive img-rounded">
                     <figcaption class="text-center">
                     <h4 class="doctor_name">
@@ -276,7 +276,7 @@
         <div class="row">
             <div class="row col-sm-4 col-md-4 hidden-xs col-sm-offset-1 col-md-offset-1">
               <figure class="foto">
-                <a class="fancyimage" data-fancybox-group="group" href="../img/doctors/chief/karelina.jpg" title="Карелина Марина Петровна - главная медицинская сестра">
+                <a data-fancybox="group" href="../img/doctors/chief/karelina.jpg" data-caption="Карелина Марина Петровна - главная медицинская сестра">
                   <img src="../img/doctors/chief/karelina.jpg" alt="Карелина Марина Петровна" class="img-responsive img-rounded">
                     <figcaption class="text-center">
                     <h4 class="doctor_name">
@@ -413,14 +413,9 @@
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="../js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="../fancybox/jquery.fancybox.pack.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function() {
-        $("a.fancyimage").fancybox();
-      });
-    </script>
+    <script type="text/javascript" src="../photogallery/dist/jquery.fancybox.min.js"></script>
   </body>
 </html>
