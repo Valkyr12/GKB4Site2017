@@ -254,7 +254,3 @@ figure h4 {
 .news {
   margin-bottom: 25px;
 }
-
-figure a:focus {
-  outline: 0 auto -webkit-focus-ring-color;
-}
