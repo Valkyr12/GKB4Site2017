@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../css/font-awesome.css">
     <link rel="stylesheet" href="../css/custom.css">
     <link rel="stylesheet" href="../css/media_query.css">
-    <link rel="stylesheet" href="../fancybox/jquery.fancybox.css" media="screen" />
+    <link rel="stylesheet" href="../../photogallery/dist/jquery.fancybox.min.css" media="screen">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -139,28 +139,30 @@
     <main>
       <div class="container">
         <div class="row">
-          <div class="col-xs-12">
+          <div class="col-xxs-12">
             <p>
               Поликлиника для взрослых ТОГБУЗ «ГКБ №4 г. Тамбова» мощностью на 650 посещений в смену оказывает первичную медико-санитарную помощь взрослому населению Советского района города Тамбова.
             </p>
           </div>
             <div class="row col-sm-4 col-md-4 hidden-xs col-sm-offset-1 col-md-offset-1">
               <figure class="foto">
-                <img src="../img/doctors/berdnichenko.jpg" alt="Бердниченко Галина Борисовна" class="img-responsive img-rounded">
-                  <figcaption class="text-center">
-                    <h4 class="doctor_name">
-                      <strong>Бердниченко Галина Борисовна</strong>
-                    </h4>
-                    <p class="doctor_specialty">Заведующая поликлиникой для взрослых.
-                      <span class="hidden-sm">Врач общей врачебной практики 1 квалификационной категории.</span>
-                    </p>
-                    <h4 class="doctor_office">
-                      <strong>Каб. 211</strong>
-                    </h4>
-                  </figcaption>
+                <a data-fancybox="group" data-caption="Бердниченко Галина Борисовна - заведующая поликлиникой для взрослых ТОГБУЗ «ГКБ №4 г.Тамбова»" href="../img/doctors/berdnichenko.jpg">
+                  <img src="../img/doctors/berdnichenko.jpg" alt="Бердниченко Галина Борисовна" class="img-responsive img-rounded">
+                </a>
+                <figcaption class="text-center">
+                  <h4 class="doctor_name">
+                    <strong>Бердниченко Галина Борисовна</strong>
+                  </h4>
+                  <p class="doctor_specialty">Заведующая поликлиникой для взрослых.
+                    <span class="hidden-sm">Врач общей врачебной практики 1 квалификационной категории.</span>
+                  </p>
+                  <h4 class="doctor_office">
+                    <b>Каб. 211</b>
+                  </h4>
+                </figcaption>
               </figure>
             </div>
-            <div class="col-xs-12 col-sm-6">
+            <div class="col-xxs-12 col-sm-6">
               <p>
                 Заведующая поликлиникой: врач общей врачебной практики 1 квалификационной категории <b>Бердниченко Галина Борисовна</b>
                 (<i class="fa fa-picture-o pdf-color" aria-hidden="true"></i>
@@ -170,7 +172,7 @@
                   Телефон: <b><i class="fa fa-phone-square blue"></i> (4752)&nbsp44&nbsp15&nbsp61</b>
                 </p>
                 <p>
-                  Кабинет №211
+                 <b>Кабинет № 211</b>
                 </p>
               </p>
             </div>
@@ -189,12 +191,12 @@
                   <span class="hidden-sm">Имеет высшую квалификационную категорию.</span>
                 </p>
                 <h4 class="doctor_office">
-                  <strong>Каб. 209</strong>
+                  <b>Каб. 209</b>
                 </h4>
               </figcaption>
             </figure>
           </div>
-          <div class="col-xs-12 col-sm-6">
+          <div class="col-xxs-12 col-sm-6">
             <p>
               Старшая медицинская сестра: медсестра высшей квалификационной категории <b>Виштак Наталия Николаевна</b>
               (<i class="fa fa-picture-o pdf-color" aria-hidden="true"></i>
@@ -203,7 +205,7 @@
                 Телефон: <b><i class="fa fa-phone-square blue"></i> (4752)&nbsp44&nbsp88&nbsp59</b>
               </p>
               <p>
-                Кабинет №209
+                <b>Кабинет № 209</b>
               </p>
             </p>
           </div>
@@ -211,7 +213,7 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-xs-12">
+          <div class="col-xxs-12">
             <ul><b>Медицинскую помощь жителям оказывают:</b>
               <li>
                 поликлиника и 2 ее филиала;
@@ -412,14 +414,9 @@
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="../js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="../fancybox/jquery.fancybox.pack.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function() {
-        $("a.fancyimage").fancybox();
-      });
-    </script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../photogallery/dist/jquery.fancybox.min.js"></script>
   </body>
 </html>
