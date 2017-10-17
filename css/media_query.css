@@ -366,6 +366,9 @@
   .useful-links {
     display: none;
   }
+  .text-table {
+    font-size: 11px;
+  }
 }
 
 /* End before 320px*/
