@@ -113,7 +113,7 @@ a.spoiler.collapsed:after {
   filter: none; /* IE6-9 */
   -webkit-filter: grayscale(1);
   border-radius: 4px;
-  background-color: #fff;
+  background-color: #333;
   border: 1px solid #ddd;
   padding:5px;
 }
@@ -258,5 +258,4 @@ figure h4 {
 .img-responsive {
   min-height: 150px;
   min-width: 210px;
-  background-color: #333;
 }
