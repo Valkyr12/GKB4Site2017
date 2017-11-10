@@ -258,4 +258,5 @@ figure h4 {
 .img-responsive {
   min-height: 150px;
   min-width: 210px;
+  background-color: #333;
 }
