@@ -62,8 +62,8 @@
                         <li class="divider"></li>
                         <li class="dropdown-header">Документы</li>
                         <li><a href="../documents/incorporation-documents.html">Учредительные документы</a></li>
-                        <li><a href="../documents/federal-regulations.html">Федеральные акты</a></li>
-                        <li><a href="../documents/regional-acts.html">Областные акты</a></li>
+                        <li><a href="http://zdrav.tmbreg.ru/fnpa.html">Федеральные акты</a></li>
+                        <li><a href="http://zdrav.tmbreg.ru/npato.html">Областные акты</a></li>
                         <li><a href="../documents/orders.html">Приказы</a></li>
                       </ul>
                     </li>
@@ -101,6 +101,7 @@
                         <li><a href="../feedback/feedback.html">Обратная связь</a></li>
                         <li><a href="phone-book.html">Телефонный справочник</a></li>
                         <li><a href="location-map.html">Схема проезда</a></li>
+                        <li><a href="site-map.html">Карта сайта</a></li>
                       </ul>
                     </li>
                   </ul>
@@ -134,6 +135,7 @@
       <div class="container">
         <div class="row">
           <div class="col-xxs-12">
+            <h1 class="h3 text-center">Контролирующие организации</h1>
             <article>
               <p class="h4">
                 Управление здравоохранения Тамбовской области
@@ -440,21 +442,21 @@
         </div>
       </div>
 
-    <div class="container">
-      <div class="row col-xs-12">
-          <hr>
+      <div class="container">
+        <div class="row col-xs-12">
+            <hr>
+        </div>
       </div>
-    </div>
 
       <div class="container">
         <div class="row">
-          <div class="col-xxs-5">
+          <div class="col-xxs-7">
             <ul class="list-unstyled list-inline pull-left">
-              <li class="footer-brand"><a href="mailto:mlpu-4office@yandex.ru">Написать нам</a></li>
+              <li class="text-muted footer-brand"><i class="fa fa-copyright"></i> 2017 ТОГБУЗ «ГКБ №4 г. Тамбова»</li>
             </ul>
           </div>
-          <div class="col-xxs-7">
-            <p class="text-muted pull-right footer-brand"><i class="fa fa-copyright"></i> 2017 ТОГБУЗ «ГКБ №4 г. Тамбова»</p>
+          <div class="col-xxs-5">
+            <p class="pull-right footer-brand"><span id="sputnik-informer"></span></p>
           </div>
         </div>
       </div>
@@ -466,5 +468,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+       (function(d, t, p) {
+           var j = d.createElement(t); j.async = true; j.type = "text/javascript";
+           j.src = ("https:" == p ? "https:" : "http:") + "//stat.sputnik.ru/cnt.js";
+           var s = d.getElementsByTagName(t)[0]; s.parentNode.insertBefore(j, s);
+       })(document, "script", document.location.protocol);
+    </script>
   </body>
 </html>
