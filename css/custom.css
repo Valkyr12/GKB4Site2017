@@ -254,3 +254,7 @@ figure h4 {
 .news {
   margin-bottom: 25px;
 }
+
+.img-responsive {
+  min-height: 150px;
+}
