@@ -113,7 +113,7 @@ a.spoiler.collapsed:after {
   filter: none; /* IE6-9 */
   -webkit-filter: grayscale(1);
   border-radius: 4px;
-  background-color: #333;
+  background-color: #fff;
   border: 1px solid #ddd;
   padding:5px;
 }
