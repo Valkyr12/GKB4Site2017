@@ -110,17 +110,10 @@ a.spoiler.collapsed:after {
 /*Фотогалерея*/
 
 .thumb img {
-  filter: none; /* IE6-9 */
-  -webkit-filter: grayscale(1);
   border-radius: 4px;
   background-color: #fff;
   border: 1px solid #ddd;
   padding:5px;
-}
-
-.thumb:hover img {
-  filter: gray; /* IE6-9 */
-  -webkit-filter: grayscale(0);
 }
 
 .thumb {
@@ -228,11 +221,11 @@ figure h4 {
 }
 
 .photoalbum-item {
-  display:         flex;
-  display: -webkit-flex;
-     display: -moz-flex;
-      display: -ms-flex;
-       display: -o-flex;
+    display:         flex;
+    display: -webkit-flex;
+       display: -moz-flex;
+        display: -ms-flex;
+         display: -o-flex;
   flex-wrap:         wrap;
   -webkit-flex-wrap: wrap;
      -moz-flex-wrap: wrap;
