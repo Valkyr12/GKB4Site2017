@@ -263,3 +263,7 @@ figure h4 {
 .no-wrap {
   white-space: nowrap;
 }
+
+.map {
+  min-height: 424px;
+}
