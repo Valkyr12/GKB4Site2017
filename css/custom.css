@@ -259,3 +259,7 @@ figure h4 {
   min-height: 150px;
   min-width: 210px;
 }
+
+.no-wrap {
+  white-space: nowrap;
+}
