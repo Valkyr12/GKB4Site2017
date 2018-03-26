@@ -113,7 +113,7 @@
     content: '«ГКБ №4 г. Тамбова»';
   }
   .logo {
-    height: 70px;
+    height: 67px;
     width: 70px;
     margin-left: 10%;
   }
@@ -163,7 +163,7 @@
   }
 
   .logo {
-    height: 70px;
+    height: 67px;
     width: 70px;
   }
 
@@ -208,7 +208,7 @@
 @media (min-width: 320px) and (max-width: 400px) {
   .logo {
     margin-left: 1%;
-    height: 70px;
+    height: 67px;
     width: 70px;
   }
 
@@ -292,7 +292,7 @@
   }
 
   .logo {
-    height: 70px;
+    height: 67px;
     width: 70px;
     margin-left: 1%;
   }
