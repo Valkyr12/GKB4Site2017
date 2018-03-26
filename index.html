@@ -22,7 +22,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body id="gkb4">
 
     <!-- Static navbar -->
       <div class="navbar navbar-default navbar-static-top" role="navigation">
@@ -74,12 +74,12 @@
                         <span class="caret"></span>
                       </a>
                       <ul class="dropdown-menu triangle" role="menu">
-                        <li><a href="main-menu/state-guarantees.html">Программа государственных гарантий<br> и государственное задание</a></li>
+                        <li><a href="main-menu/state-guarantees.html">Программа государственных гарантий <wbr>и государственное задание</a></li>
                         <li><a href="main-menu/medicine-provision.html">Лекарственное обеспечение</a></li>
                         <li><a href="main-menu/medical-examination.html">Диспансеризация населения</a></li>
                         <li><a href="main-menu/hospitalization-rules.html">Правила госпитализации</a></li>
                         <li><a href="main-menu/personal-data.html">Политика обработки персональных данных</a></li>
-                        <li><a href="main-menu/medical-standards.html">Стандарты и порядок оказания медицинской помощи</a></li>
+                        <li><a href="main-menu/medical-standards.html">Стандарты и порядок <wbr>оказания медицинской помощи</a></li>
                         <li><a href="main-menu/public-services.html">Государственные услуги</a></li>
                         <li class="divider"></li>
                         <li class="dropdown-header">Полезная информация</li>
@@ -209,6 +209,51 @@
       </div>
     </div>
     <!-- End quick navigation -->
+
+    <!-- Версия для слабовидящих -->
+    <div class="container">
+      <div class="row">
+        <div class="btn-group quick-nav">
+
+          <div id="plus" class="quick-nav btn btn-primary">
+              <i class="fa fa-plus fa-lg"></i> Плюс
+          </div>
+
+          <div class="quick-nav btn btn-primary">
+              <i class="fa fa-picture-o fa-lg"></i> Выключить картинки
+          </div>
+
+          <div id="minus" class="quick-nav btn btn-primary">
+              <i class="fa fa fa-minus fa-lg"></i> Минус
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var body = document.getElementById('gkb4');
+      var plus = document.getElementById('plus');
+      var minus = document.getElementById('minus');
+      var step = 2;
+
+      plus.addEventListener('click', increaseFont);
+      minus.addEventListener('click', decreaseFont);
+
+      var getFontSize = function (b) {
+            return parseFloat(getComputedStyle(b, null).fontSize);
+        };
+
+      function increaseFont() {
+        body.style.fontSize = getFontSize(body) + step + 'px';
+      };
+
+      function decreaseFont() {
+        body.style.fontSize = getFontSize(body) - step + 'px';
+      };
+    </script>
+
+    <!-- Конец версии для слабовидящих -->
 
     <!-- Content -->
     <main>
