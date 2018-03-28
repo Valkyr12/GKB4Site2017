@@ -20,7 +20,11 @@
   }
 
   .carousel-caption {
-  padding-bottom: 20px;
+    padding-bottom: 20px;
+  }
+
+  .logo {
+    float: right;
   }
 }
 
@@ -41,6 +45,10 @@
     font-size: 16px;
     padding: 10px 25px;
   }
+
+  .logo {
+    float: right;
+  }
 }
 
 /*End after 992px before 1199px*/
@@ -59,6 +67,7 @@
   .logo {
     height: 85px;
     width: 85px;
+    float: right;
   }
 
   .nav > li > a {
@@ -79,24 +88,14 @@
 @media (max-width: 767px) {
   .navbar-brand {
     font-size: 20px;
-    padding-top: 25px;
-  }
-  .navbar-header {
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    justify-content: space-between;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-
+    padding: 25px 0px;
+    max-width: 350px;
   }
 
   .dropdown-menu > li > a {
-  white-space: normal;
+    white-space: normal;
   }
+
   .glyphicon-chevron-right,
   .glyphicon-chevron-left {
     font-size: 30px;
@@ -112,10 +111,10 @@
   .navbar_togbuz:after {
     content: '«ГКБ №4 г. Тамбова»';
   }
+
   .logo {
     height: 67px;
     width: 70px;
-    margin-left: 10%;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li:hover, .navbar-default .navbar-nav .open .dropdown-menu > li:focus {
     background-color: rgb(223,240,216);
@@ -139,20 +138,10 @@
   .navbar-brand {
     font-size: 16px;
     margin-bottom: 10px;
-    padding: 20px 10px;
+    padding: 20px 0;
+    max-width: 180px;
   }
-  .navbar-header {
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    justify-content: space-between;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
 
-  }
   .glyphicon-chevron-right,
   .glyphicon-chevron-left {
     font-size: 30px;
@@ -194,26 +183,27 @@
   .useful-links {
     max-width: 100%;
   }
+
  .title-visible {
     visibility: visible;
     opacity: 1;
  }
+
 }
 
 /*End before 560px*/
-
 
 /*After 320px before 400px*/
 
 @media (min-width: 320px) and (max-width: 400px) {
   .logo {
-    margin-left: 1%;
     height: 67px;
     width: 70px;
   }
 
   .navbar-brand {
     font-size: 16px;
+    max-width: 145px;
   }
 
   .quick-nav-btn {
@@ -268,6 +258,10 @@
   .useful-links {
     display: none;
   }
+
+  .navbar-toggle {
+    margin-right: -10px;
+  }
 }
 
 /*End after 320px before 400px*/
@@ -294,7 +288,6 @@
   .logo {
     height: 67px;
     width: 70px;
-    margin-left: 1%;
   }
 
   .quick-nav {
@@ -369,17 +362,15 @@
   .text-table {
     font-size: 11px;
   }
+
+  .navbar-toggle {
+    margin-right: -10px;
+  }
 }
 
 /* End before 320px*/
 
-
 /* End Media*/
-
-/*.col-xs-4 .btn-primary {
-  display: block;
-  margin: 0 auto;
-}*/
 
 @media (min-width: 768px) {
   .dl-horizontal-bank dd {

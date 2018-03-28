@@ -4,7 +4,7 @@ $(function() {
   // при нажатии на кнопку Обновить
   $("#reload-captcha").click(function() {
 	// выводим новый код капча
-    $('#img-captcha').attr('src','/feedback/captcha.php?id='+Math.random()+'');
+    $('#img-captcha').attr('src','captcha.php?id='+Math.random()+'');
   });
 
   $('input[name="agree"]').change(function(){
