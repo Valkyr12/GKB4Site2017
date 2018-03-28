@@ -35,6 +35,10 @@
   margin: 1rem auto;
 }
 
+.magnifier {
+  padding: 5px 5px;
+}
+
 .carousel-indicators {
   bottom: 0;
 }
